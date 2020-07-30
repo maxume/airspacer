@@ -21,8 +21,21 @@ make
 sudo make install
 ```
 
+## Airspaces
+in airspace-xp11 folder
+| Files         | Country           | Remarks            |
+| ------------- |-------------------| -------------------|
+| EB_WE.txt     | Belgium (Weekend) | corrected manually |
+| EB_WK.txt     | Belgium (Week)    | almost corr. manu. |
+| LF.txt        | France            | not validated      |
+| EH.txt        | Nederlands        | not validated      |
+| ED.txt        | Germany           | not validated      |
+| LE.txt        | Spain             | not checked        |
+| LI.txt        | Italy             | not checked        |
 
 
-## Garmin 1000 in Cessna 172 in X-Plane 11
+
+
+## Garmin 1000 in X-Plane 11
 
 ![airspace scree shot](images/airspace_ED.png)
