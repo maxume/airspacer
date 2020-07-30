@@ -41,7 +41,7 @@ TEST_CASE( "check latitude,longitude conformation", "[airspace]" ) {
 string line1 = {"DP 49:40:8N 5:17:41E"};
 string line1ok = {"DP 49:40:08 N 005:17:41 E"};
 string line2 = {"DB 50:40:36N 004:04:15E, 50:32:05N 004:06:55E"};
-string line2ok = {"DB 50:40:36 N 004:04:15 E , 50:32:05 N 004:06:55 E "};
+string line2ok = {"DB 50:40:36 N 004:04:15 E, 50:32:05 N 004:06:55 E"};
 
 TEST_CASE( "check gps conformation", "[airspace]" ) {
     string line;

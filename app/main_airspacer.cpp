@@ -25,6 +25,7 @@ int main(int argc, const char* argv[])
         string line;
         while(getline(inFile,line)) {
             auto newline = formaterString(line);
+            cout << newline << endl;
             outFile << newline << endl;
         }
         outFile.close();

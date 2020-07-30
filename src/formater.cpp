@@ -58,9 +58,7 @@ string formaterString(const string& line)
     boost::regex regLongitude("-?[0-9]*:[0-9]*:[0-9]*\\s?[EW]");
 
     auto newline = regex_replace(line,regLatitude,latitudeFormat);
-    cout << newline << endl;
     newline = regex_replace(newline,regLongitude,longitudeFormat);
-    cout << newline << endl;
 
     return newline;
 }
